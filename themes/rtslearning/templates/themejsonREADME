@@ -1,0 +1,9 @@
+  "settings": {
+    "_comment": "benne lévõ engedélyezett beállítások lehetõvé teszi a felhasználó részére az adott beállítás manuális módosítását, pl. állíthat margót, betûtípust, méretet stb.",
+
+      "styles": {
+    "_comment": "elõre megadjuk a téma kinézetét",
+
+    settingsbe:
+    "appearanceTools": true,
+    mindent engedélyez a felhasználónak!

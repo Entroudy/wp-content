@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "rtslearning/team-members-group",
+  "title": "Team Members Group",
+  "category": "text",
+  "description": "Adds a group for adding team members",
+  "textdomain": "rtslearning",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "imageShape": {
+      "type": "string",
+      "default": "hexagon"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css",
+  "providesContext": {
+    "rtslearning/image-shape": "imageShape"
+  },
+  "example": {
+    "attributes": {
+      "columns": 2
+    },
+    "innerBlocks": [
+      {
+        "name": "rtslearning/team-member",
+        "attributes": {
+          "name": "John Doe",
+          "title": "CEO of RTS",
+          "bio": "This is a short description of the block",
+          "imgURL": "https://avatars.githubusercontent.com/u/96079429?s=200&v=4"
+        }
+      },
+      {
+        "name": "rtslearning/team-member",
+        "attributes": {
+          "name": "Jane Doe",
+          "title": "CEO of RTS",
+          "bio": "This is a short description of the block",
+          "imgURL": "https://avatars.githubusercontent.com/u/96079429?s=200&v=4"
+        }
+      }
+    ]
+  }
+}

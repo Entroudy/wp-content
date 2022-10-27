@@ -1,0 +1,3 @@
+1200x900 size optional
+name of file should be screenshot
+png
