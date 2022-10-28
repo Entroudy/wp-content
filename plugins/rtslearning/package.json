@@ -28,5 +28,6 @@
     "@emotion/styled": "^11.10.4",
     "@mui/material": "^5.10.10"
   },
-  "description": ""
+  "description": "",
+  "type": "module"
 }
