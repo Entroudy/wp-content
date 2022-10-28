@@ -9,5 +9,5 @@ delete_option("up_options");
 global $wpdb;
 
 $wpdb->query(
-    "DTOP TABLE IF EXISTS {$wpdb->prefix}recipe_ratings"
+    "DROP TABLE IF EXISTS {$wpdb->prefix}recipe_ratings"
 );
